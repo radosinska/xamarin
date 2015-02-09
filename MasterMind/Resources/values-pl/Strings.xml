@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ApplicationName">MasterMind</string>
+
+    <string name="Play">Graj</string>
+    <string name="Instruction">Instrukcja</string>
+  
+    <string name="InstructionText">Zasady gry..</string>
+
+    <string name="Easy">Łatwy</string>
+    <string name="Hard">Trudny</string>
+
+    <string name="TextTmp">Grasz</string>
+
+  <string name="CheckButton">Sprawdź</string>
+
+  <string name="Score">Twój wynik: </string>
+  <string name="WinGame">Koniec gry! Wygrałeś talon :)</string>
+  <string name="LoseGame">Przegrałeś :( Spróbuj jeszcze raz !</string>
+  <string name="Back" >Powrót do menu głównego</string>
+  
+</resources>

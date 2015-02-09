@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ApplicationName">MasterMind</string>
+
+    <string name="Play">Play</string>
+    <string name="Instruction">Instruction</string>
+  
+    <string name="InstructionText">How to play..</string>
+
+    <string name="Easy">Easy</string>
+    <string name="Hard">Hard</string>
+
+    <string name="TextTmp">You play...</string>
+
+  <string name="CheckButton">Check</string>
+
+  <string name="Score">Your score: </string>
+  <string name="WinGame">You WIN !!! :)</string>
+  <string name="LoseGame">Game over ! You lose the game :(</string>
+  <string name="Back" >Back to menu</string>
+  
+</resources>

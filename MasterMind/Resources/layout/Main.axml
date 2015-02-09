@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:background="@color/Grey1"
+    android:weightSum="1">
+    <LinearLayout
+        android:layout_weight="0.2"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent" />
+    <LinearLayout
+        android:layout_weight="0.6"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@color/Grey2">
+        <Button
+            android:id="@+id/ButtonPlay"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/Grey3"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/Play"
+            android:textColor="@color/Grey5"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <Button
+            android:id="@+id/ButtonInstruction"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/Grey3"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/Instruction"
+            android:textColor="@color/Grey5"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="0.2"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent" />
+</LinearLayout>

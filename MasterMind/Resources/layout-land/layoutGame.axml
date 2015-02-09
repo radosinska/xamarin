@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/Grey2"
+    android:weightSum="1">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/TextScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/Grey5"
+            android:text="test" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:orientation="horizontal"
+        android:gravity="center">
+    <!--10  DZIESIĘĆ-->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.1"
+            android:orientation="vertical">
+            <mastermind.SquareLayout
+                android:id="@+id/C101"
+                android:tag="1"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2"
+                android:background="@drawable/RedCircle" />
+            <mastermind.SquareLayout
+                android:id="@+id/C102"
+                android:tag="2"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2"
+                android:background="@drawable/YellowCircle" />
+            <mastermind.SquareLayout
+                android:id="@+id/C103"
+                android:tag="3"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2"
+                android:background="@drawable/GreenCircle" />
+            <mastermind.SquareLayout
+                android:id="@+id/C104"
+                android:tag="4"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2"
+                android:background="@drawable/BlueCircle" />
+            <mastermind.SquareLayout
+                android:id="@+id/C105"
+                android:tag="5"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2"
+                android:background="@drawable/PinkCircle" />
+        </LinearLayout>
+    <!--9 DZIEWIĘĆ-->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.1"
+            android:orientation="vertical"
+            android:gravity="center">
+            <mastermind.SquareLayout
+                android:id="@+id/F91"
+                android:tag="0"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2"
+                android:background="@drawable/Border" />
+            <mastermind.SquareLayout
+                android:id="@+id/F92"
+                android:tag="1"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2"
+                android:background="@drawable/Border" />
+            <mastermind.SquareLayout
+                android:id="@+id/F93"
+                android:tag="2"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2"
+                android:background="@drawable/Border" />
+            <mastermind.SquareLayout
+                android:id="@+id/F94"
+                android:tag="3"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2"
+                android:background="@drawable/Border" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/F95"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.1">
+                    <LinearLayout
+                        android:id="@+id/F951"
+                        android:layout_height="fill_parent"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.5"
+                        android:background="@drawable/Border2" />
+                    <LinearLayout
+                        android:id="@+id/F952"
+                        android:layout_height="fill_parent"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.5"
+                        android:background="@drawable/Border2" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.1">
+                    <LinearLayout
+                        android:id="@+id/F953"
+                        android:layout_height="fill_parent"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.5"
+                        android:background="@drawable/Border2" />
+                    <LinearLayout
+                        android:id="@+id/F954"
+                        android:layout_height="fill_parent"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.5"
+                        android:background="@drawable/Border2" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    <!--8 OSIEM-->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.1"
+            android:orientation="vertical"
+            android:gravity="center">
+            <mastermind.SquareLayout
+                android:id="@+id/F81"
+                android:tag="0"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2"
+                android:background="@drawable/Border" />
+            <mastermind.SquareLayout
+                android:id="@+id/F82"
+                android:tag="1"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2"
+                android:background="@drawable/Border" />
+            <mastermind.SquareLayout
+                android:id="@+id/F83"
+                android:tag="2"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2"
+                android:background="@drawable/Border" />
+            <mastermind.SquareLayout
+                android:id="@+id/F84"
+                android:tag="3"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2"
+                android:background="@drawable/Border" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/F85"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+                    <LinearLayout
+                        android:id="@+id/F851"
+                        android:layout_height="fill_parent"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.5"
+                        android:background="@drawable/Border2" />
+                    <LinearLayout
+                        android:id="@+id/F852"
+                        android:layout_height="fill_parent"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.5"
+                        android:background="@drawable/Border2" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+                    <LinearLayout
+                        android:id="@+id/F853"
+                        android:layout_height="fill_parent"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.5"
+                        android:background="@drawable/Border2" />
+                    <LinearLayout
+                        android:id="@+id/F854"
+                        android:layout_height="fill_parent"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.5"
+                        android:background="@drawable/Border2" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    <!--7 SIEDEM-->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.1"
+            android:orientation="vertical"
+            android:gravity="center">
+            <mastermind.SquareLayout
+                android:id="@+id/F71"
+                android:tag="0"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2"
+                android:background="@drawable/Border" />
+            <mastermind.SquareLayout
+                android:id="@+id/F72"
+                android:tag="1"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2"
+                android:background="@drawable/Border" />
+            <mastermind.SquareLayout
+                android:id="@+id/F73"
+                android:tag="2"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2"
+                android:background="@drawable/Border" />
+            <mastermind.SquareLayout
+                android:id="@+id/F74"
+                android:tag="3"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2"
+                android:background="@drawable/Border" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/F75"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5">
+                    <LinearLayout
+                        android:id="@+id/F751"
+                        android:layout_height="fill_parent"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.5"
+                        android:background="@drawable/Border2" />
+                    <LinearLayout
+                        android:id="@+id/F752"
+                        android:layout_height="fill_parent"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.5"
+                        android:background="@drawable/Border2" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5">
+                    <LinearLayout
+                        android:id="@+id/F753"
+                        android:layout_height="fill_parent"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.5"
+                        android:background="@drawable/Border2" />
+                    <LinearLayout
+                        android:id="@+id/F754"
+                        android:layout_height="fill_parent"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.5"
+                        android:background="@drawable/Border2" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    <!--6 SZEŚĆ-->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.1"
+            android:orientation="vertical"
+            android:gravity="center">
+            <mastermind.SquareLayout
+                android:id="@+id/F61"
+                android:tag="0"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2"
+                android:background="@drawable/Border" />
+            <mastermind.SquareLayout
+                android:id="@+id/F62"
+                android:tag="1"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2"
+                android:background="@drawable/Border" />
+            <mastermind.SquareLayout
+                android:id="@+id/F63"
+                android:tag="2"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2"
+                android:background="@drawable/Border" />
+            <mastermind.SquareLayout
+                android:id="@+id/F64"
+                android:tag="3"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2"
+                android:background="@drawable/Border" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/F65"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5">
+                    <LinearLayout
+                        android:id="@+id/F651"
+                        android:layout_height="fill_parent"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.5"
+                        android:background="@drawable/Border2" />
+                    <LinearLayout
+                        android:id="@+id/F652"
+                        android:layout_height="fill_parent"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.5"
+                        android:background="@drawable/Border2" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5">
+                    <LinearLayout
+                        android:id="@+id/F653"
+                        android:layout_height="fill_parent"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.5"
+                        android:background="@drawable/Border2" />
+                    <LinearLayout
+                        android:id="@+id/F654"
+                        android:layout_height="fill_parent"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.5"
+                        android:background="@drawable/Border2" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    <!--5 PIĘĆ-->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.1"
+            android:orientation="vertical"
+            android:gravity="center">
+            <mastermind.SquareLayout
+                android:id="@+id/F51"
+                android:tag="0"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2"
+                android:background="@drawable/Border" />
+            <mastermind.SquareLayout
+                android:id="@+id/F52"
+                android:tag="1"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2"
+                android:background="@drawable/Border" />
+            <mastermind.SquareLayout
+                android:id="@+id/F53"
+                android:tag="2"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2"
+                android:background="@drawable/Border" />
+            <mastermind.SquareLayout
+                android:id="@+id/F54"
+                android:tag="3"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2"
+                android:background="@drawable/Border" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/F55"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5">
+                    <LinearLayout
+                        android:id="@+id/F551"
+                        android:layout_height="fill_parent"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.5"
+                        android:background="@drawable/Border2" />
+                    <LinearLayout
+                        android:id="@+id/F552"
+                        android:layout_height="fill_parent"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.5"
+                        android:background="@drawable/Border2" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5">
+                    <LinearLayout
+                        android:id="@+id/F553"
+                        android:layout_height="fill_parent"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.5"
+                        android:background="@drawable/Border2" />
+                    <LinearLayout
+                        android:id="@+id/F554"
+                        android:layout_height="fill_parent"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.5"
+                        android:background="@drawable/Border2" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    <!--4 CZTERY-->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.1"
+            android:orientation="vertical"
+            android:gravity="center">
+            <mastermind.SquareLayout
+                android:id="@+id/F41"
+                android:tag="0"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2"
+                android:background="@drawable/Border" />
+            <mastermind.SquareLayout
+                android:id="@+id/F42"
+                android:tag="1"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2"
+                android:background="@drawable/Border" />
+            <mastermind.SquareLayout
+                android:id="@+id/F43"
+                android:tag="2"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2"
+                android:background="@drawable/Border" />
+            <mastermind.SquareLayout
+                android:id="@+id/F44"
+                android:tag="3"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2"
+                android:background="@drawable/Border" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/F45"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5">
+                    <LinearLayout
+                        android:id="@+id/F451"
+                        android:layout_height="fill_parent"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.5"
+                        android:background="@drawable/Border2" />
+                    <LinearLayout
+                        android:id="@+id/F452"
+                        android:layout_height="fill_parent"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.5"
+                        android:background="@drawable/Border2" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5">
+                    <LinearLayout
+                        android:id="@+id/F453"
+                        android:layout_height="fill_parent"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.5"
+                        android:background="@drawable/Border2" />
+                    <LinearLayout
+                        android:id="@+id/F454"
+                        android:layout_height="fill_parent"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.5"
+                        android:background="@drawable/Border2" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    <!--TRZY-->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.1"
+            android:orientation="vertical"
+            android:gravity="center">
+            <mastermind.SquareLayout
+                android:id="@+id/F31"
+                android:tag="0"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2"
+                android:background="@drawable/Border" />
+            <mastermind.SquareLayout
+                android:id="@+id/F32"
+                android:tag="1"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2"
+                android:background="@drawable/Border" />
+            <mastermind.SquareLayout
+                android:id="@+id/F33"
+                android:tag="2"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2"
+                android:background="@drawable/Border" />
+            <mastermind.SquareLayout
+                android:id="@+id/F34"
+                android:tag="3"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2"
+                android:background="@drawable/Border" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/F35"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5">
+                    <LinearLayout
+                        android:id="@+id/F351"
+                        android:layout_height="fill_parent"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.5"
+                        android:background="@drawable/Border2" />
+                    <LinearLayout
+                        android:id="@+id/F352"
+                        android:layout_height="fill_parent"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.5"
+                        android:background="@drawable/Border2" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5">
+                    <LinearLayout
+                        android:id="@+id/F353"
+                        android:layout_height="fill_parent"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.5"
+                        android:background="@drawable/Border2" />
+                    <LinearLayout
+                        android:id="@+id/F354"
+                        android:layout_height="fill_parent"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.5"
+                        android:background="@drawable/Border2" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    <!--DWA-->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.1"
+            android:orientation="vertical"
+            android:gravity="center">
+            <mastermind.SquareLayout
+                android:id="@+id/F21"
+                android:tag="0"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2"
+                android:background="@drawable/Border" />
+            <mastermind.SquareLayout
+                android:id="@+id/F22"
+                android:tag="1"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2"
+                android:background="@drawable/Border" />
+            <mastermind.SquareLayout
+                android:id="@+id/F23"
+                android:tag="2"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2"
+                android:background="@drawable/Border" />
+            <mastermind.SquareLayout
+                android:id="@+id/F24"
+                android:tag="3"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2"
+                android:background="@drawable/Border" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/F25"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5">
+                    <LinearLayout
+                        android:id="@+id/F251"
+                        android:layout_height="fill_parent"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.5"
+                        android:background="@drawable/Border2" />
+                    <LinearLayout
+                        android:id="@+id/F252"
+                        android:layout_height="fill_parent"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.5"
+                        android:background="@drawable/Border2" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5">
+                    <LinearLayout
+                        android:id="@+id/F253"
+                        android:layout_height="fill_parent"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.5"
+                        android:background="@drawable/Border2" />
+                    <LinearLayout
+                        android:id="@+id/F254"
+                        android:layout_height="fill_parent"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.5"
+                        android:background="@drawable/Border2" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1">
+        <Button
+            android:id="@+id/CheckButton"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#bbbbbb"
+            android:text="@string/CheckButton" />
+    </LinearLayout>
+</LinearLayout>

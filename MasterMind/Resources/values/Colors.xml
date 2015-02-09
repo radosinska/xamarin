@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <color name="Grey1">#FFFAFA</color>
+  <color name="Grey2">#EEE9E9</color>
+  <color name="Grey3">#CDC9C9</color>
+  <color name="Grey4">#8B8989</color>
+  <color name="Grey5">#696969</color>
+
+  <color name="MyYellow">#ffd700</color>
+  <color name="MyGreen">#9acd32</color>
+  <color name="MyBlue">#4682b4</color>
+  <color name="MyPink">#db7093</color>
+  <color name="MyRed">#ff4500</color>
+</resources>

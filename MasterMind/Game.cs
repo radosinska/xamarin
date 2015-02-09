@@ -355,7 +355,7 @@ namespace MasterMind
                 }
                             
                 //Jeœli wybrany poziom: hard - zamalowanie wyniku
-                if(level>0 && level%2==0)
+                if(hard==1 && level>0 && level%2==0)
                 {
                     int GreyCircle = Resource.Drawable.GreyCircle;
                     for(int i=0; i<4;i++)
